@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="shop_project">
+    <output-path>$PROJECT_DIR$/out/artifacts/shop_project</output-path>
+    <root id="archive" name="shop_project_war.war">
+      <element id="artifact" artifact-name="shop_project:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib (5)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

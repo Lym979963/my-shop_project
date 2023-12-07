@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="/">
+    <output-path>$PROJECT_DIR$/out/artifacts/_</output-path>
+    <root id="archive" name="_.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop_project" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib (4)" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="c3p0-0.9.2.1 (2)" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib (2)" />
+          <element id="library" level="project" name="lib (3)" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="shop_project/web/Web" />
+    </root>
+  </artifact>
+</component>
